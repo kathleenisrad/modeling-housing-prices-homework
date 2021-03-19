@@ -13,6 +13,7 @@ so they can determine whether or not a home may be in their budget.
 I tested out three different models: Linear, Lasso, and Ridge Regression.
 Success was evaluated based off of R^2 and root mean squared error (RMSE) scores. 
 A dummy model was created to evaluate the baseline, and my models were compared against it.
+I used cross validation to find the best alphas for the Lasso and Ridge models.
 
 ## Features:
 When testing my models, I included all housing features. Then I kept only features that were strongly
@@ -37,7 +38,3 @@ It even performed very slightly better on the Kaggle competition than the origin
 I was able to build a model to predict the housing prices of Ames, Iowa. 
 If I were to recommend renovations to current home owners, I would suggest to just focus on the features
 that were strongly correlated with housing price.
-
-## Link to Video:
-
-https://drive.google.com/file/d/1vni0UvGXwDlqTspaIFd63QVpy4qeac63/view?usp=sharing
