@@ -1,4 +1,4 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
+# Ames Housing Data
 
 ## Using features of houses, I will develop a model to predict the prices of houses in Ames, Iowa.
 
